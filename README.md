@@ -1,14 +1,31 @@
 # ServerClient_UnixDomain_StreamSockets
 
+This project demostrates how server - client works over a unix domain socket. It utilizes technologies of multithreading, sockets and mutexes.
+It was conducted for the final project of University of West Attica for course "Operating Systems II"
+
+# Table of Contents
+1. [Server](#server)
+   
+   1.1 [ask03_server.c](#ask03_serverc)
+3. [Client](#client)
+   
+   2.1 [ask03_client.c](#ask03_clientc)
+5. [Built-in Functions](#built-in-functions)
+6. [Program Flow](#program-flow)
+7. [Run](#run)
+8. [Results](#results)
+9. [Author](#author)
+
+
 ## Server
 
-### ask03_server.c
+### [ask03_server.c](https://github.com/PaolaVlsc/ServerClient_UnixDomain_StreamSockets/blob/main/ask03_server.c)
 
 This C program serves as a multithreaded server for receiving data from clients, calculating the average of the data, and performing checks on the sequence. It is designed to handle multiple client connections simultaneously over a Unix domain socket. The program demonstrates the use of threads, sockets, and mutexes to ensure thread safety.
 
 ## Client
 
-### ask03_client.c
+### [ask03_client.c](https://github.com/PaolaVlsc/ServerClient_UnixDomain_StreamSockets/blob/main/ask03_client.c)
 
 The code facilitates communication between a client and a server over a Unix domain socket, allowing the client to send an array to the server and receive results based on the server's processing. The client can also choose to exit the program.
 
@@ -65,6 +82,10 @@ gcc -o b ask03_client.c
 ## Results
 
 Below, you'll find snapshots of the terminal from different code executions. It is observed that the calculations are performed correctly, and the expected results are printed. It is also noted that the server can simultaneously accommodate multiple clients.
+
+![image](https://github.com/PaolaVlsc/ServerClient_UnixDomain_StreamSockets/assets/87998374/4977df8a-d44f-4201-bc13-fab9529d7dc8)
+![image](https://github.com/PaolaVlsc/ServerClient_UnixDomain_StreamSockets/assets/87998374/51571f7e-3c12-46af-a9db-1d2643a3f5b7)
+![image](https://github.com/PaolaVlsc/ServerClient_UnixDomain_StreamSockets/assets/87998374/0ae71a04-e077-4c1c-9231-5be58f11f15d)
 
 ## Author
 
