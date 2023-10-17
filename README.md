@@ -83,10 +83,17 @@ gcc -o b ask03_client.c
 
 Below, you'll find snapshots of the terminal from different code executions. It is observed that the calculations are performed correctly, and the expected results are printed. It is also noted that the server can simultaneously accommodate multiple clients.
 
-![image](https://github.com/PaolaVlsc/ServerClient_UnixDomain_StreamSockets/assets/87998374/4977df8a-d44f-4201-bc13-fab9529d7dc8)
-![image](https://github.com/PaolaVlsc/ServerClient_UnixDomain_StreamSockets/assets/87998374/51571f7e-3c12-46af-a9db-1d2643a3f5b7)
-![image](https://github.com/PaolaVlsc/ServerClient_UnixDomain_StreamSockets/assets/87998374/0ae71a04-e077-4c1c-9231-5be58f11f15d)
+![image](https://github.com/PaolaVlsc/ServerClient_UnixDomain_StreamSockets/assets/87998374/0d8972ac-dde2-43be-bde3-4c79ce4f7201)
+
+![image](https://github.com/PaolaVlsc/ServerClient_UnixDomain_StreamSockets/assets/87998374/e9765e66-275c-4508-a710-86225888818f)
+
+![image](https://github.com/PaolaVlsc/ServerClient_UnixDomain_StreamSockets/assets/87998374/64ecf889-26b7-43b1-9f2c-fe310f2aca90)
+
 
 ## Author
 
 This project was written by Velasco Paola for the subject Operating Systems II final project. 2020-21
+
+
+## Extras 
+[Report paper in greek](https://github.com/PaolaVlsc/ServerClient_UnixDomain_StreamSockets/blob/main/extras/cs161020_%CE%92%CE%95%CE%9B%CE%91%CE%A3%CE%9A%CE%9F%CE%A0%CE%91%CE%9F%CE%9B%CE%91_%CE%9B%CE%A3%CE%99%CE%99_%CE%95%CE%A1%CE%93%CE%91%CE%A3%CE%99%CE%9102.pdf)
